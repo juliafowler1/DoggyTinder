@@ -1,0 +1,254 @@
+body{
+	font-size: 20px;
+	margin: 0px;
+	font-family: 'Pacifico', cursive;
+	background-image: url(https://www.phpflow.com/wp-content/uploads/2018/01/google-map-api-with-php.png);
+	background-size: cover;
+	
+}
+
+.navbar{
+	
+	background-color:#BED8D4;
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	
+}
+
+.content {
+	color: black;
+}
+
+.navChild{
+	
+	height: 50px;
+	margin: 5px;
+	border-radius: 50px;
+	border: none;
+	background-color: white;
+	display: inline;
+	
+}
+
+.dropDown{
+	
+	width: 50px;
+	font-size: 20px;
+	
+}
+
+.searchButton{
+	
+	width: 50px;
+	margin-right: 0px;
+	margin-left: 15px;
+	
+}
+
+.searchBar{
+	
+	width: calc(100% - 170px);
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	
+}
+
+.videoList{
+	
+	padding: 2px;
+	
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: auto;
+	position: relative;
+	top: 110px;
+	width: 100%;
+	height: auto;
+}
+
+.bottomBar{
+	
+	/* position: fixed; */
+	padding: 5px;
+	background-color:#BED8D4;
+	display: float;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.bottomChild{
+	
+	height: 50px;
+	width:  50px;
+	margin: 5px;
+	border-radius: 50px;
+	border: none;
+	background-color: white;
+	
+}
+
+.add{
+	
+	float: right;
+	margin-right: 15px;
+	
+}
+
+.profile{
+	
+	float: left;
+	
+}
+
+.logo{
+	
+	display: inline;
+	font-size: 35px;
+	color: black;
+	
+}
+
+.logoDesktop{
+	
+	display: none;
+	
+}
+
+.content{
+	display: none;
+	position: absolute;
+	background-color: #CEDFD9;
+	min-width: 160px;
+	z-index: 1;
+	font-size: 25px;
+}
+
+.content a{
+	color: #000000;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.navbar a:hover{
+	background-color: #e5e5e5;
+}
+
+.navbar:hover .content{
+	display: block;
+}
+@media (min-width: 768px){
+
+	img{
+		display: none;
+	}
+
+	body{
+		background-image: url(https://wallpapertag.com/wallpaper/full/d/a/9/133490-free-download-dog-backgrounds-2560x1600-for-samsung.jpg);
+		background-position: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: 1368px;
+		background-position: 0px -130px;
+		
+		
+	}
+	.bottomBar{
+		
+		display: none;
+		
+	}
+	
+	.logoDesktop{
+		
+		display: inline;
+		
+	}
+	
+	.dropDown{
+		
+		display: none;
+		
+	}
+	
+	.searchBar{
+		
+		margin-left: 10px;
+		width: calc(100% - 355px);
+		
+	}
+	
+	.videoList{
+		
+		position: relative;
+		left: 20%;
+		top: 85px;
+		
+	}
+	
+	img{
+		
+		width: 26%;
+		height: auto;
+		
+	}
+	
+	.nav{
+		
+		position: fixed;
+		z-index: 1;
+		
+	}
+	
+	.categoriesDesktop{
+		
+		position: absolute;
+		background-color: red;
+		right: 80%;
+		width: 20%;
+		height: 630px;
+		top: 87px;
+		margin-right: 2px;
+		
+	}
+	
+	.cat{
+		
+		width: 90%;
+		margin: 10px;
+		padding-top: 10px;
+		border-radius: 50px;
+		border: none;
+		background-color: white;
+		font-family: 'Pacifico', cursive;
+		
+	}
+	
+	.profileDesktop, .addDesktop{
+		
+		width: 40%;
+		
+	}
+	
+	.searchButton{
+		
+		margin-right: 5px;
+			
+	}
+
+	.content{
+		display: block;
+		margin-top: 10px;
+	}
+
+}
